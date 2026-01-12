@@ -1,0 +1,37 @@
+# Create the main project directory structure
+mkdir -p khmer_stopword_removal_system/{data,scripts,src,experiments,results,docs}
+
+# Create subdirectories
+cd khmer_stopword_removal_system
+
+# Data directories
+mkdir -p data/{raw,processed,external,interim}
+mkdir -p data/raw/{khmer_news,other_datasets}
+mkdir -p data/processed/{with_stopwords,without_stopwords}
+mkdir -p data/processed/tfidf_vectors
+
+# Source code directories
+mkdir -p src/{data,features,models,evaluation,utils}
+mkdir -p src/data/{collection,preprocessing,exploration}
+mkdir -p src/features/{extraction,selection}
+mkdir -p src/models/{baseline,enhanced}
+mkdir -p src/evaluation/{metrics,visualization}
+
+# Experiments directories
+mkdir -p experiments/{stopword_generation,ir_evaluation,classification_tests}
+mkdir -p experiments/stopword_generation/{frequency_analysis,linguistic_rules,combined}
+mkdir -p experiments/ir_evaluation/{precision_recall,ranking,tfidf_impact}
+mkdir -p experiments/classification_tests/{with_stopwords,without_stopwords}
+
+# Results directories
+mkdir -p results/{stopword_lists,performance_metrics,visualizations}
+mkdir -p results/stopword_lists/{v1,v2,v3,final}
+mkdir -p results/performance_metrics/{precision_recall,f1_scores,ranking_metrics}
+mkdir -p results/visualizations/{word_frequencies,performance_comparisons}
+
+# Documentation directories
+mkdir -p docs/{proposal,reports,paper,presentations}
+mkdir -p docs/reports/{weekly,monthly,final}
+
+# Configuration and environment
+mkdir -p config notebooks

@@ -1,0 +1,4 @@
+﻿Model,Acc Raw,Acc Clean,Δ Acc,F1 Raw,F1 Clean,Δ F1
+Naive Bayes,0.8756,0.8730,-0.0026,0.8627,0.8614,-0.0013
+Logistic Regression,0.9177,0.9190,+0.0013,0.9099,0.9124,+0.0025
+Linear SVC,0.9255,0.9294,+0.0039,0.9185,0.9232,+0.0047

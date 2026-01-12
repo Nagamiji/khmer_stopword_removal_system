@@ -1,0 +1,11 @@
+﻿group,vocab_size,Δ_vocab,avg_terms_doc,Δ_terms_doc,avg_tfidf_doc
+Auxiliary Verbs / Aspect Markers,15000,0,161.34,0.0,0.0007
+Conjunctions,15000,0,161.34,0.0,0.0007
+Determiners & Quantifiers,15000,0,161.34,0.0,0.0007
+Function Nouns,15000,0,161.34,0.0,0.0007
+Numbers & Time Expressions,15000,0,161.34,0.0,0.0007
+Particles & Discourse Markers,15000,0,161.34,0.0,0.0007
+Politeness & Honorifics,15000,0,161.34,0.0,0.0007
+Prepositions / Relational Words,15000,0,161.34,0.0,0.0007
+Pronouns,15000,0,161.34,0.0,0.0007
+Question & Negation Words,15000,0,161.34,0.0,0.0007
